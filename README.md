@@ -31,45 +31,7 @@ A desktop application for generating AUTOSAR MCAL (Microcontroller Abstraction L
 *   **GUI Framework:** Tkinter
 *   **Template Engine:** Parse library
 *   **Data Format:** ARXML (AUTOSAR XML)
-
-## Running with Docker (Recommended)
-
-The easiest way to run the MCAL Generator is by using the pre-built Docker image from Docker Hub.
-
-### On Linux
-
-1.  **Pull the Docker image:**
-    ```bash
-    docker pull aruviot/mcal-app:v1
-    ```
-2.  **Run the container:**
-    ```bash
-    docker run -it --rm -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix aruviot/mcal-app:v1
-    ```
-
-### On Windows
-
-Running a GUI application from a Docker container on Windows requires an X Server.
-
-1.  **Install an X Server:** Download and install [VcXsrv](https://sourceforge.net/projects/vcxsrv/).
-2.  **Launch VcXsrv:** Start VcXsrv from the Start Menu. In the configuration wizard:
-    *   Choose "Multiple windows".
-    *   Set the display number to `0`.
-    *   Choose "Start no client".
-    *   Check "Disable access control".
-    *   Finish the configuration.
-3.  **Allow Firewall Access:** When prompted by your firewall, allow VcXsrv to communicate on public and private networks.
-4.  **Pull the Docker image:**
-    ```bash
-    docker pull aruviot/mcal-app:v1
-    ```
-5.  **Run the container:** Open PowerShell and run the following command:
-    ```powershell
-    setx DISPLAY 127.0.0.1:0.0
-    docker run --rm -e DISPLAY=host.docker.internal:0 aruviot/mcal-app:v1
-    ```
-    *Note: If you are not using WSL2, you might need to use `host.docker.internal` instead of the PowerShell command to get the IP address:* 
-    
+ 
 ## Building from Source (For Integrators)
 
 If you want to modify the code or build the application from source, follow these instructions.
@@ -84,11 +46,11 @@ If you want to modify the code or build the application from source, follow thes
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/aruvi-iot/MCAL-app.git
+    git clone https://github.com/Creamcollar/autosar-arxml-codegen.git
     ```
 2.  **Navigate to the project directory:**
     ```bash
-    cd MCAL-app
+    cd autosar-arxml-codegen
     ```
 3.  **Create an env**
     ```bash
@@ -110,14 +72,6 @@ If you want to modify the code or build the application from source, follow thes
 ```bash
 python main.py
 ```
-
-### Building the Docker Image from Source
-
-1.  **Build the image:**
-    ```bash
-    docker build -t aruviot/mcal-app .
-    ```
-2.  **Run the locally built image:** (See the "Running with Docker" section for the `docker run` command for your OS).
 
 ## License
 This project is licensed under the GNU General Public License v3.0 (GPL-3.0).
