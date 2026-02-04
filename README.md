@@ -4,10 +4,6 @@
 
 A desktop application for generating AUTOSAR MCAL (Microcontroller Abstraction Layer) configurations and code from ARXML files. This tool simplifies the process of configuring and generating drivers for the DIO, ADC, CAN module.
 
-## Autosar Architecture
-
-<img width="768" height="380" alt="image" src="https://github.com/user-attachments/assets/53d4aa5d-0696-456a-9057-4f9786262b0b" />
-
 ## Application Overview
 
 <img width="7672" height="3416" alt="image" src="https://github.com/user-attachments/assets/3d41d53b-9fed-45fc-b2ea-00d06be45463" />
