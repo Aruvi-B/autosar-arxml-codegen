@@ -107,5 +107,4 @@ If you have questions, need clarification, or want to discuss ideas, feel free t
 
 ---
 
-This project is proudly developed and maintained by **CreamCollar**
-[https://www.creamcollar.com/](https://www.creamcollar.com/)
+This project is proudly developed and maintained by [CreamCollar](https://www.creamcollar.com/)
