@@ -70,7 +70,7 @@ python main.py
 ```
 
 ## License
-This project is licensed under the GNU General Public License v3.0 (GPL-3.0).
+This project is licensed under the GNU General Public License v3.0 (GPL-3.0)
 
 You are free to use, study, modify, and redistribute this software,
 provided that any redistributed or modified versions are released
@@ -81,7 +81,7 @@ See the [LICENSE](LICENSE) file for full details.
 ## Mentorship & Guidance:
 - [Jegan Amirthalingam](https://www.linkedin.com/in/jegan-amirthalingam-44734738/) - for technical guidance and review
 
-## Developer
+## Developers
 
 *   **Aruvi B** - *Junior SDV Consultant* - [LinkedIn](https://linkedin.com/in/aruvib)
 *   **Auroshaa A** - *Junior SDV Consultant – Cybersecurity* - [LinkedIn](https://www.linkedin.com/in/auroshaa-a-11587a294/)
