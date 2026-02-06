@@ -95,9 +95,9 @@ When your work is ready:
 ### Developers
 
 * **Aruvi B** – *Junior SDV Consultant*
-  LinkedIn: [https://linkedin.com/in/aruvib](https://linkedin.com/in/aruvib)
+  [LinkedIn](https://linkedin.com/in/aruvib)
 * **Auroshaa A** – *Junior SDV Consultant – Cybersecurity*
-  LinkedIn: [https://www.linkedin.com/in/auroshaa-a-11587a294/](https://www.linkedin.com/in/auroshaa-a-11587a294/)
+  [LinkedIn](https://www.linkedin.com/in/auroshaa-a-11587a294/)
 
 ---
 
