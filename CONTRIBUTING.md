@@ -1,4 +1,4 @@
-# Contributing to CreamCollar – AUTOSAR ARXML Code Generation
+# Contributing to AUTOSAR ARXML Code Generation
 
 Thank you for your interest in contributing to this project!
 We welcome **all types of contributions**-bug reports, feature requests, documentation improvements, and code enhancements.
