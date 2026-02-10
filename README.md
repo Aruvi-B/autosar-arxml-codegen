@@ -6,7 +6,7 @@ A desktop application for generating AUTOSAR MCAL (Microcontroller Abstraction L
 
 ## Application Overview
 
-<img width="7672" height="3416" alt="image" src="https://github.com/user-attachments/assets/3d41d53b-9fed-45fc-b2ea-00d06be45463" />
+<img width="7672" height="3416" alt="image" src="asserts/Archiecture.png"/>
 
 ## Features Involved
 
